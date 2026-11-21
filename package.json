@@ -1,0 +1,28 @@
+{
+  "name": "proiect-tehnologii-web-marketplace",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Marketplace si gestiunea comenzilor (Tema 6 | Pachete: STA + EXT)",
+  "workspaces": [
+    "backend",
+    "simulator",
+    "frontend",
+    "e2e"
+  ],
+  "scripts": {
+    "dev": "concurrently -n simulator,backend,frontend -c yellow,cyan,green \"npm run dev:simulator\" \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "npm --workspace=backend run dev",
+    "dev:simulator": "npm --workspace=simulator run dev",
+    "dev:frontend": "npm --workspace=frontend run dev",
+    "start:backend": "npm --workspace=backend run start",
+    "start:simulator": "npm --workspace=simulator run start",
+    "build:frontend": "npm --workspace=frontend run build",
+    "seed": "npm --workspace=backend run seed",
+    "test": "npm --workspace=backend run test",
+    "coverage": "npm --workspace=backend run coverage"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

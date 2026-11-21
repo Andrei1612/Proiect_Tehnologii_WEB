@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Environment variables (never commit real secrets)
+.env
+.env.local
+.env.*.local
+
+# Databases
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.db
+backend/data/
+
+# Build & coverage outputs
+dist/
+coverage/
+frontend/dist/
+backend/coverage/
+
+# E2E & load test artifacts
+test-results/
+playwright-report/
+load-tests/reports/
+
+# Logs & OS files
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db

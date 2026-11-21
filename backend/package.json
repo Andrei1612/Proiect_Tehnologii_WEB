@@ -1,0 +1,19 @@
+{
+  "name": "marketplace-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "REST API Express + Sequelize + SQLite pentru Marketplace (Tema 6)",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "seed": "node -e \"console.log('Seed script will be implemented in Step 3.')\"",
+    "test": "node -e \"console.log('Tests will be added starting in Step 3.')\"",
+    "coverage": "node -e \"console.log('Coverage will be configured in Step 8.')\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

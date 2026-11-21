@@ -1,0 +1,10 @@
+{
+  "name": "marketplace-e2e",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Playwright end-to-end tests for Marketplace",
+  "scripts": {
+    "test": "node -e \"console.log('Playwright E2E tests will be implemented in Step 11.')\""
+  }
+}
