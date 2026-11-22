@@ -77,5 +77,5 @@ Proiect pentru disciplina **Tehnologii Web** (CSIE, ASE București, 2026–2027)
 ## Progres implementare
 
 - [x] **Pasul 1:** Structură repo și schelet executabil ESM (`backend`, `simulator`, `frontend`)
-- [ ] **Pasul 2:** Documentație analiză și design M1 (`requirements`, `architecture`, schițe ADR, planuri teste/capacitate)
+- [x] **Pasul 2:** Documentație analiză și design M1 (`requirements`, `architecture`, schițe ADR, planuri teste/capacitate)
 - [ ] **Pașii 3–12:** Conform [SPEC.md](./SPEC.md)
